@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="../lab07/styles.css">
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+
+    <body>
+        <nav>
+            <a href=index.html>Home Page |</a> 
+            <a href=skills.html>Skills |</a> 
+            <a href=contact.html>Contact </a> 
+        </nav>
+        <h1>Contact</h1>
+
+        <p>Name: Jayshawn Mercedes<br>
+        Address: 303 Stadium Place, Syracuse, New York 13244, apt 1418<br>
+        <b>My LinkedIn Profile:</b><br>
+        <a href="https://www.linkedin.com/in/jayshawn-mercedes23/">
+
+        <img src="../images2/logo-sized.png" alt="LinkedIn logo"> 
+        
+        <a href="https://www.linkedin.com/in/jayshawn-mercedes23/">LinkedIn</a><br>
+
+        <br><b>School Email:</b><br>
+        <a href="mailto:jmercede@syr.edu">Jayshawn's School email</a><br>
+        </p>
+        <p><b>My Address:</b></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.3193306027983!2d-76.14094948501584!3d43.03471230022151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39b93dc1fff%3A0xf368c318c7cd6d25!2sLawrinson%20Hall!5e0!3m2!1sen!2sus!4v1599848654276!5m2!1sen!2sus" 
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    
+        <form action="jmercede@syr.edu" method="post">        
+
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname"><br>
+    
+            <span class="orange">What's your gender?<br>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Gender" value="Guy">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="Gender" value="Girl">
+            <label for="Other">Other</label>
+            <input type="radio" id="Other" name="Other" value="Other">
+            <br>
+            
+            Are you in Syracuse?<br>
+            <label for="Si">Yes</label>
+            <input type="radio" id="Si" name="Location" value="SYR"> 
+            <label for="No">No</label>
+            <input type="radio" id="No" name="Location" value="Not SYR"> 
+            <br>
+            
+            Do you read Comics?<br>
+            <input type="checkbox" id="ComicReader" name="ComicReader" value="Yes">
+            <label for="ComicReader"> I'M A COMIC GEEK</label><br>
+            <input type="checkbox" id="ComicReader2" name="ComicReader2" value="Car">
+            <label for="ComicReader2"> I read some comics</label><br>
+            <input type="checkbox" id="ComicReader3" name="ComicReader3" value="Boat">
+            <label for="ComicReader3"> I don't read comics</label>
+              
+              <br>
+    
+            <label for="brand">What is your preferred brand of comics? if any</label><br>
+            <select id="brand" name="brand">
+                <option value="DC">DC</option>
+                <option value="Marvel">Marvel</option>
+                <option value="Japan">Manga(Japanese comics)</option>
+                <option value="None">None</option>
+                <option value="Other">Other</option>
+            </select>
+            <br>
+            
+            if you selected "Other", what is it called?<br>
+            <textarea id="book" name="book" rows="3" cols="50">
+            </textarea><br>
+            <br>
+    
+            <label for="favorite">What's your favorite comic book?</label>
+            <br>
+            <textarea id="favorite" name="favorite" rows="3" cols="50">
+            </textarea><br>
+    
+            <input type="submit" value="Send Form">
+        </form>
+    
+    </body>
+</html>
