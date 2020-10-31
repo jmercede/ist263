@@ -10,6 +10,13 @@
             .quote {float: right; margin-top: 0px;}
             .copyright {float: left; color: #ffa500;}
             .headimage {max-width: 100%;}
+            #skip-to-content {
+            position: absolute; 
+            left: -999px;  
+            background-color: white;
+            border: 1px solid gray;
+            }
+        #skip-to-content:focus {position: absolute; left: 10px;}
         </style>
     </head> 
        
@@ -20,7 +27,11 @@
                 <a href=skills.html>Skills <span> |</span></a> 
                 <a href=contact.html>Contact </a> 
             </nav>
+
+            <a id="skip-to-content" href="#content">Skip to Content</a>
+
             <main>
+            <a id="content"></a>
         <h1>Jayshawn Mercedes's Biography</h1>
             
             <p>I’m currently studying within the iSchool completing a bachelor’s in Information Studies. I started in Information Studies because programming has been one of my career interests for a long time. 
@@ -53,7 +64,7 @@
                 <li> Tales of Greek Gods, Heroes, Myths, and more</li>
             </ul>
         </section>
-        
+
             </main>
             <footer> 
             <hr>

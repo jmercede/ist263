@@ -12,7 +12,16 @@
         border-collapse: collapse; 
         font-size: 1.2em;
         padding:15px;
-        text-align: center;}</style>
+        text-align: center;}
+
+        #skip-to-content {
+            position: absolute; 
+            left: -999px;  
+            background-color: white;
+            border: 1px solid gray;
+            }
+        #skip-to-content:focus {position: absolute; left: 10px;}
+        </style>
         
     </head>
 
@@ -22,7 +31,9 @@
         <a href=skills.html>Skills <span>|</span></a> 
         <a href=contact.html>Contact </a> 
       </nav>
+    <a id="skip-to-content" href="#content">Skip to Content</a>
 <table class="orange", style="width:100%">
+  <a id="content"></a>
   <caption>My Technical Skills</caption>
         <tr>
           <th>Category</th>
