@@ -6,10 +6,10 @@
     <title>Lab 11</title>
     <script>
         function WinnerMessage () {
-            alert('You won!');
+            document.getELementById("messages").innerHTML = 'You Won!';
         }
         function TryAgain () {
-            alert('Wrong Shell - Try Again');
+            document.getELementById("messages").innerHTML = 'Wrong Shell - Try Again';
         }
     </script>
 </head>
@@ -18,5 +18,6 @@
     <img src="https://laferger.github.io/ist263/images/walnut.jpg" alt="first walnut" onclick= "WinnerMessage();">
     <img src="https://laferger.github.io/ist263/images/walnut.jpg" alt="second walnut" onclick= "TryAgain();">
     <img src="https://laferger.github.io/ist263/images/walnut.jpg" alt="third walnut" onclick= "TryAgain();">
+    <div id="messages"></div>
 </body>
 </html>
