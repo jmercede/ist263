@@ -1,9 +1,20 @@
 nav {
     text-align: center;
+    font-size: 1.5em;
 }
 
+img { height: 600px;}
 nav a {
     color: #303030;}
 
 body {
-    background-color:#A9A9A9 ;}
+    background-color:#A9A9A9 ;
+    font-size: 1.5em;
+margin: 30px;}
+
+ p, figcaption {
+     font-family: sans-serif, "Times New Roman", Times, serif;
+     font-size: 1.5em;
+}
+
+img {margin: 10px;}
