@@ -25,5 +25,6 @@ article {border: #FFFFFF; border-style: solid; overflow: hidden;}
 and (min-width: 600px) 
 and (max-width: 1280px)
 {
+nav {max-width: 100%;}
 img {max-width: auto; max-height: auto;}
 }
