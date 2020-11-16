@@ -17,6 +17,13 @@
             .img2 {flex: 1; order: 1; margin-left: auto;}
             .img3 {flex: 1; order: 2;}
             
+            #skip-to-content {
+            position: absolute; 
+            left: -999px;  
+            background-color: white;
+            border: 1px solid gray;
+            }
+        #skip-to-content:focus {position: absolute; left: 10px;}
 
         </style>
     </head>
@@ -29,7 +36,7 @@
         <a href=CurrentReads.html> Current Reads <span> |</span></a> 
         <a href=Variants.html>Covers & Variants </a> 
     </nav>
-    
+    <a id="skip-to-content" href="#content">Skip to Content</a>
     <div class= "part1">
     <article>
     <h2>Top Comic of the Week</h2>
