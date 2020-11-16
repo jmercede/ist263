@@ -11,9 +11,10 @@
             .clear {clear: both;}
             .img1 {float: left;}
             img {width: 400px}
-            ul {font-size: 1.5em;}
+            ul {overflow: hidden;}
+            li {font-size: 1.5em; float: left; display: block; padding: 16px;}
             .part2 {display: flex;}
-            .img2 {flex: 1; order: 1;}
+            .img2 {flex: 1; order: 1; margin-left: auto;}
             .img3 {flex: 1; order: 2;}
             
 
@@ -31,8 +32,8 @@
     
     <div class= "part1">
     <article>
-    <img src="../ComicSiteMedia/The Last Ronin.jpg" class="img1" height="400px" width="400px" alt="The Last Ronin">
     <h2>Top Comic of the Week</h2>
+    <img src="../ComicSiteMedia/The Last Ronin.jpg" class="img1" height="400px" width="400px" alt="The Last Ronin">
     <p>
     The last ronin takes place in a dystopian future of the TMNT universe. 
     Only one of the turtles remains and New York has changed for the worse.
@@ -72,6 +73,7 @@
 <div class="part3">
     <section>
     <h2>My Reads</h4>
+    <article>
     <ul>
         <li>Venom (2018)</li>
         <li>The Amazing Spiderman</li>
@@ -82,6 +84,7 @@
         <li>One-Punch Man</li>
         <li>Much more...</li>
     </ul>  
+    </article>
 </div>
     </section>
       

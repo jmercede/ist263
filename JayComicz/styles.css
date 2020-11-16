@@ -10,7 +10,7 @@ nav a {
 body {
     background-color:#A9A9A9 ;
     font-size: 1.5em;
-margin: 30px;}
+    margin: 30px;}
 
  p, figcaption {
      font-family: sans-serif, "Times New Roman", Times, serif;
@@ -18,3 +18,5 @@ margin: 30px;}
 }
 
 img {margin: 10px;}
+
+article {border: #FFFFFF; border-style: solid; overflow: hidden;}
