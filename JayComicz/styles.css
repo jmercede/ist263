@@ -84,15 +84,15 @@ body {
 and (min-width: 992px) 
 {
 img { 
-height: 600px;
-width: 400px; }
+height: 37.5em;
+width: 25em; }
 }
 
 @media only screen 
 and (max-width: 768px) 
 {
 img { 
-height: 600px;
- width: 400px; }
+height: 12.5em;
+ width: 12em; }
     }
 
