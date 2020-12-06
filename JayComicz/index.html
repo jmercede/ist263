@@ -8,16 +8,19 @@
         <link rel="shortcut icon" type="image/x-icon" href="../ComicSiteMedia/favicon.ico">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+       
         <title>Comic News</title>
         <style>
             h1 {text-align: center; background-color: #303030; color: #FFFFFF; font-size: 5em; margin: 0px;}
+            h2 {flex-wrap: wrap; font-size: 4.0em;}
             .clear {clear: both;}
-            .img1 {float: left;}
             ul {overflow: hidden;}
-            li {font-size: 1.5em; float: left; display: block; padding: 16px;}
-            .part2 {display: flex;}
-            .img2 {flex: 1; order: 1; margin-left: auto;}
-            .img3 {flex: 1; order: 2;}
+            li {font-size: 2.5em; float: left; display: block; padding: 16px;}
+            .card {width: 100%; box-sizing: border-box; }
+            img {margin: 10px;}
+            p {font-size: 2.5em;}
+            .footer {display: flex; background-color: #303030; color: #FFFFFF; font-size: 2.5em; margin: 0px;}
+    
             
 
         </style>
@@ -26,53 +29,71 @@
     <body>
     <a id="skip-to-content" href="#content">Skip to Content</a>
     <h1>Comic News</h1>
-    <nav>
-        <a href=index.html>Comic News <span> |</span></a> 
-        <a href=CurrentReads.html> Current Reads <span> |</span></a> 
-        <a href=Variants.html>Covers & Variants </a> 
-    </nav>
+        <nav>
+            <a href=index.html>Comic News <span> |</span></a> 
+            <a href=CurrentReads.html> Current Reads <span> |</span></a> 
+            <a href=Variants.html>Covers & Variants </a> 
+        </nav>
    
-    <div class= "part1">
-    <article>
-    <h2>Top Comic of the Week</h2>
-    <img src="../ComicSiteMedia/The Last Ronin.jpg" class="img1" height="400px" width="400px" alt="The Last Ronin">
-    <p>
-    The last ronin takes place in a dystopian future of the TMNT universe. 
-    Only one of the turtles remains and New York has changed for the worse.
-    The last turtle must find a way to live on and avenge his family's name as he faces 
-    the long-time criminal organization that took them away from him, they are known as <u>The Foot!</u>
-    </p>
-    </article>
-    </div>
+    <h2>TOP COMIC OF THE WEEK</h2>
+        <div class="card">
+            <img  src="../ComicSiteMedia/The Last Ronin.jpg" class="TOP" alt="The Last Ronin #1">
+            
+            <div class="card-body">
+            <h2>The Last Ronin </h2>
+              <p class="card-text"> 
+                The last ronin takes place in a dystopian future of the TMNT universe. 
+                Only one of the turtles remains and New York has changed for the worse.
+                The last turtle must find a way to live on and avenge his family's name as he faces 
+                the long-time criminal organization that took them away from him, they are known as <u>The Foot!</u></p>
+            </div>
+          </div>
+
+
     <div class="clear"></div>
 
     <h2>Upcoming Comics</h2>
-    <div class= "part2">
-<article>
-    <img src="../ComicSiteMedia/Venom/KIBC.jpg" class="img2" height="400px" width="400px" alt="King in Black #1">
-    <p>
-        As the year 2020 comes to a close, Marvel Comics will begin their first major comic event of 2021 starting in December. 
-        "KING IN BLACK" #1 will see Venom along with other heroes across the Marvel Universe battle the symbiote God <b>KNULL</b>. 
-        This will be an event like none other, taking horror to a whole new level in Marvel Comic history.
-        As writer Donny Cates promises that this event will shake up the marvel universe forever. 
-        I've been a huge fan of Donny Cates run alongside the amazing artists 
-        who've been working on it so I'm definitely buying this and all the tie-ins! 
-    </p>
-   
-</article>
 
-<article>
-    <img src="../ComicSiteMedia/Wolverine.jpg " class="img3" height="400px" width="400px" alt="Wolverine Black, WHite, and BLOOD #1">
-<p>
-    "WOLVERINE BLACK, WHITE, & BLOOD" #1 starts to release beginning November 4 and will entail untold adventures of the mutants past. 
-     Each issue will contain three action-packed adventures of Logan in the format color of black, white, and bloody red! 
-     Marvel Comics has brought top-notch artist for this one so I'm going to buy the first issue to check it out. Honestly, Wolverine adventures 
-     are usually some of the best of stories in Marvel Comics so I feel it won't dissappoint.
-</p>
-</article>
-</div>
+    <div class="card">
+    
+        <img  src="../ComicSiteMedia/Venom/KIBC.jpg"  class="upcoming" alt="King in Black #1">
+        
 
-<div class="part3">
+        <div class="card-body">
+            <h2>KING IN BLACK</h2>
+              
+            <p class="card-text"> 
+                As the year 2020 comes to a close, Marvel Comics will begin their first major comic event of 2021 starting in December. 
+                "KING IN BLACK" #1 will see Venom along with other heroes across the Marvel Universe battle the symbiote God <b>KNULL</b>. 
+                This will be an event like none other, taking horror to a whole new level in Marvel Comic history.
+                As writer Donny Cates promises that this event will shake up the marvel universe forever. 
+                I've been a huge fan of Donny Cates run alongside the amazing artists 
+                who've been working on it so I'm definitely buying this and all the tie-ins! 
+            </p>
+        </div>
+    </div>
+    
+    <div class="clear"></div>
+
+    
+    <div class="card">
+        
+        <img src="../ComicSiteMedia/Wolverine.jpg "  class="upcoming"  alt="Wolverine Black, WHite, and BLOOD #1">
+                
+        <div class="card-body">
+            <h2>WOLVERINE BLACK WHITE AND RED</h2>
+
+            <p class="card-text">
+                "WOLVERINE BLACK, WHITE, & BLOOD" #1 starts to release beginning November 4 and will entail untold adventures of the mutants past. 
+                Each issue will contain three action-packed adventures of Logan in the format color of black, white, and bloody red! 
+                Marvel Comics has brought top-notch artist for this one so I'm going to buy the first issue to check it out. Honestly, Wolverine adventures 
+                are usually some of the best of stories in Marvel Comics so I feel it won't dissappoint.
+            </p>
+        </div>
+    </div>
+    <div class="clear"></div>
+        
+
     <section>
     <h2>My Reads</h4>
     <article>
@@ -91,6 +112,5 @@
     </section>
       
     </body>
-
    
 </html>
