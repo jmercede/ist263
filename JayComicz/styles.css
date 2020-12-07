@@ -7,10 +7,11 @@ h1 {text-align: center;
 }
 
 p {font-size:2.5em;}
-.row {
-    display: flex;
-  }
 
+img {
+    width: 37.5em;
+    height: 25em;
+}
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -81,24 +82,5 @@ body {
     }
 #skip-to-content:focus {position: absolute; left: 10px;}
 
-@media only screen 
-and (min-width: 992px) 
-{
-img { 
-height: 37.5em;
-width: 25em;
-}
-
-@media only screen 
-and (max-width: 768px) 
-{
-img { 
-height: 10em;
- width: 10em; }
-nav {
-width:100%;}
-.card {
-font-size: 1em;}
-body {font-size: 1em;}
-p{font-size: 1em;}
+@media (min-width: 1025px) and (max-width: 1280px) {
 }
