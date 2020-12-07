@@ -91,13 +91,16 @@ nav {
 width:100%;}
 }
 
+
 @media only screen 
 and (max-width: 768px) 
 {
 img { 
 height: 3em;
  width: 4em; }
- nav {
+nav {
 width:100%;}
+.card {
+font-size: 1em;}
+body {font-size: 1em;}
 }
-
