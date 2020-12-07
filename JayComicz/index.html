@@ -20,11 +20,15 @@
             img {margin: 10px;}
             p {font-size: 2.5em;}
             .footer {display: flex; background-color: #303030; color: #FFFFFF; font-size: 2.5em; margin: 0px;}
-    
-            
-
+            #TOP {display:none;}
         </style>
     </head>
+
+    <script>
+        function myFunction() {
+          document.getElementById("TOP").style.display = "flex";
+        }
+    </script>
 
     <body>
     <a id="skip-to-content" href="#content">Skip to Content</a>
@@ -37,8 +41,9 @@
    
     <h2>TOP COMIC OF THE WEEK</h2>
         <div class="card">
-            <img  src="../ComicSiteMedia/The Last Ronin.jpg" class="TOP" alt="The Last Ronin #1">
-            
+            <img  src="../ComicSiteMedia/The Last Ronin.jpg" id="TOP" alt="The Last Ronin #1">
+            <button onclick="myFunction()">Click me</button>
+
             <div class="card-body">
             <h2>The Last Ronin </h2>
               <p class="card-text"> 
